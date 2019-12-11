@@ -1,0 +1,41 @@
+! ----------------------------------- SMEET FILTRAGE DEBUT ----------------------------------- !
+
+! Les lignes débutant par ‘!’ seront ignorées
+! type = objet (exemple swf, mp3)
+! domain = yoursite.com (domaine site web)
+! important = bloque même s'il existe une exception
+! * = bloque tout caractère aléatoire avant ou après
+! $ = séparateur entre chaque filtre de bloquage/autorisation
+! @@ = autorise tout
+
+! >>>> smeet.com (animations d'entrée/sortie des pixels) <<<< !
+
+! appearance.xx = bloque les animations d'entrée
+! disappearance.xx = bloque les animations de sortie (toujours en teste suite à des freezes de pixels, @@ = autorisé temporairement)
+
+||c00s.com*/appearance.xx*$object,domain=smeet.com,important
+@@||c00s.com*/disappearance.xx*$object,domain=smeet.com,important
+
+! >>>> (sons divers) <<<< !
+
+||*mp3$domain=smeet.com,important
+||*emotigrams*$domain=smeet.com,important
+
+! >>>> (interactions) <<<< !
+
+! effectImage = sur/et vous uniquement
+! actionImage = tout animation visible dans la room exception sur vous
+
+||c00s.com*effectImage*$domain=smeet.com,important
+||c00s.com*actionImage*$domain=smeet.com,important
+
+! >>>> (marre des pubs ?) <<<< !
+
+/*SmeetBanner
+/*_Banner
+/*.*_FreeCoins_
+/FreeCoinsTeam
+/5000_AD04_banner_100x100
+/ads
+
+! ------------------------------------ SMEET FILTRAGE FIN ------------------------------------ !
