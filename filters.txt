@@ -1,6 +1,6 @@
 ! Title: filters sMeet (Anti-Inter-Sound)
 ! Author: papypoutine | {@R!s TechCor}
-! Version: 1.0
+! Version: 1.1
 ! Expires: N/A
 ! License: N/A
 ! Homepage: N/A
@@ -47,5 +47,11 @@
 /FreeCoinsTeam
 /5000_AD04_banner_100x100
 /ads
+
+! >>>> Fix bug place du marché (bancs) <<<< !
+
+@@||c00s.com*ads*$domain=smeet.com,important
+@@||c00s.com*_Banner*$domain=smeet.com,important
+@@||c00s.com*_box*$domain=smeet.com,important
 
 ! ------------------------------------ SMEET FILTRAGE FIN ------------------------------------ !
