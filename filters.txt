@@ -1,3 +1,13 @@
+! Title: filters (Anti-Inter-Sound)
+! Author: papypoutine | {@R!s TechCor}
+! Version: 1.0
+! Expires: N/A
+! License: N/A
+! Homepage: N/A
+! Contact: N/A
+! Support: N/A
+! Contribution: N/A
+
 ! ----------------------------------- SMEET FILTRAGE DEBUT ----------------------------------- !
 
 ! Les lignes débutant par ‘!’ seront ignorées
