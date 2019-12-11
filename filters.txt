@@ -39,19 +39,4 @@
 ||c00s.com*effectImage*$domain=smeet.com,important
 ||c00s.com*actionImage*$domain=smeet.com,important
 
-! >>>> (marre des pubs ?) <<<< !
-
-/*SmeetBanner
-/*_Banner
-/*.*_FreeCoins_
-/FreeCoinsTeam
-/5000_AD04_banner_100x100
-!/ads
-
-! >>>> Fix bug place du marché (bancs) <<<< !
-
-@@||c00s.com*Properties/ads*$domain=smeet.com
-@@||c00s.com*_Banner*$domain=smeet.com,important
-@@||c00s.com*_box*$domain=smeet.com,important
-
 ! ------------------------------------ SMEET FILTRAGE FIN ------------------------------------ !
