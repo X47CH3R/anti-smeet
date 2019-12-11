@@ -8,7 +8,7 @@
 ! Support: N/A
 ! Contribution: N/A
 
-! ----------------------------------- SMEET FILTRAGE DEBUT ----------------------------------- !
+! ---------------------------------- SMEET FILTRAGE DEBUT ---------------------------------- !
 
 ! Les lignes débutant par ‘!’ seront ignorées
 ! type = objet (exemple swf, mp3)
@@ -39,4 +39,4 @@
 ||c00s.com*effectImage*$domain=smeet.com,important
 ||c00s.com*actionImage*$domain=smeet.com,important
 
-! ------------------------------------ SMEET FILTRAGE FIN ------------------------------------ !
+! ----------------------------------- SMEET FILTRAGE FIN ----------------------------------- !
