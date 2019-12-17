@@ -39,4 +39,15 @@
 ||c00s.com*effectImage*$domain=smeet.com,important
 ||c00s.com*actionImage*$domain=smeet.com,important
 
+! >>>> (iFrameHide to Smeet) <<<< !
+
+fr.smeet.com##iframe#fb_xdm_frame_https[src^="https://staticxx.facebook.com/connect/xd_arbiter.php"]
+fr.smeet.com##iframe#flashHelpIframe
+fr.smeet.com##div#sponsorpay
+fr.smeet.com##iframe#iFrameVideoOffers
+fr.smeet.com##div#sponsorPayVideoHolder
+fr.smeet.com##iframe#roomServiceNotifier
+fr.smeet.com##iframe#userMessagingNotifier
+fr.smeet.com##body#body > noscript
+
 ! ----------------------------------- SMEET FILTRAGE FIN ----------------------------------- !
