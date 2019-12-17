@@ -21,10 +21,10 @@
 ! >>>> smeet.com (animations d'entrée/sortie des pixels) <<<< !
 
 ! appearance.xx = bloque les animations d'entrée
-! disappearance.xx = bloque les animations de sortie (toujours en teste suite à des freezes de pixels, @@ = autorisé temporairement)
+! disappearance.xx = bloque les animations de sortie
 
 ||c00s.com*/appearance.xx*$object,domain=smeet.com,important
-@@||c00s.com*/disappearance.xx*$object,domain=smeet.com,important
+||c00s.com*disappearance.xx.*$object,redirect-rule=noop.js
 
 ! >>>> (sons divers) <<<< !
 
