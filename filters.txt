@@ -50,4 +50,8 @@ fr.smeet.com##iframe#roomServiceNotifier
 fr.smeet.com##iframe#userMessagingNotifier
 fr.smeet.com##body#body > noscript
 
+! >>>> (Fix Payement online) <<<< !
+
+@@||*paymentwall.com*$domain=smeet.com
+
 ! ----------------------------------- SMEET FILTRAGE FIN ----------------------------------- !
