@@ -1,8 +1,8 @@
 ! Title: filters sMeet (Anti-Inter-Sound)
 ! Author: papypoutine | {@R!s TechCor}
-! Version: 1.1
+! Version: 1.1b
 ! Expires: 1 hour
-! License: N/A
+! License: {@R!s TechCor}
 ! Homepage: N/A
 ! Contact: N/A
 ! Support: N/A
