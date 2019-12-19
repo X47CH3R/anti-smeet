@@ -24,7 +24,7 @@
 ! disappearance.xx = bloque les animations de sortie
 
 ||c00s.com*/appearance.xx*$object,domain=smeet.com,important
-||c00s.com*disappearance.xx.*$object,redirect-rule=noop.js
+!||c00s.com*disappearance.xx.*$object,redirect-rule=noop.js
 
 ! >>>> (sons divers) <<<< !
 
