@@ -53,6 +53,7 @@ fr.smeet.com##body#body > noscript
 ! >>>> (Fix Payement online) <<<< !
 
 @@||*paymentwall.com*$domain=smeet.com
+@@||*terminal3.com*$domain=smeet.com
 
 ! >>>> (Fix Room Public Help) <<<< !
 
