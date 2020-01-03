@@ -54,4 +54,8 @@ fr.smeet.com##body#body > noscript
 
 @@||*paymentwall.com*$domain=smeet.com
 
+! >>>> (Fix Room Public Help) <<<< !
+
+@@||c00s.com*GLOBUS*$domain=smeet.com
+
 ! ----------------------------------- SMEET FILTRAGE FIN ----------------------------------- !
