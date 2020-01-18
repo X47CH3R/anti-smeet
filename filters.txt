@@ -1,6 +1,6 @@
 ! Title: filters sMeet (Anti-Inter-Sound)
 ! Author: papypoutine | {@R!s TechCor}
-! Version: 1.1b
+! Version: 1.2
 ! Expires: 1 hour
 ! License: {@R!s TechCor}
 ! Homepage: N/A
@@ -58,5 +58,7 @@ fr.smeet.com##body#body > noscript
 ! >>>> (Fix Room Public Help) <<<< !
 
 @@||c00s.com*GLOBUS*$domain=smeet.com
+
+||c00s.com*Pfeile*GLOBUS*$domain=smeet.com,important
 
 ! ----------------------------------- SMEET FILTRAGE FIN ----------------------------------- !
