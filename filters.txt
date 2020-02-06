@@ -58,7 +58,6 @@ fr.smeet.com##body#body > noscript
 ! >>>> (Fix Room Public Help) <<<< !
 
 @@||c00s.com*GLOBUS*$domain=smeet.com
-
-||c00s.com*Pfeile*GLOBUS*$domain=smeet.com,important
+@@||*c00s.com*animiert*GLOBUS*$object,domain=smeet.com
 
 ! ----------------------------------- SMEET FILTRAGE FIN ----------------------------------- !
