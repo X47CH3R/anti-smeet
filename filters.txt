@@ -47,4 +47,8 @@
 
 @@||*c00s.com*animiert*GLOBUS*$object,domain=smeet.com
 
+! >>>> smeet.com (fix some bugs)<<<< !
+
+@@||c00s.com*Trigger*$domain=smeet.com
+
 ! ----------------------------------- SMEET FILTRAGE FIN ----------------------------------- !
