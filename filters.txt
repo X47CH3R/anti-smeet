@@ -1,10 +1,10 @@
 ! Title: filters sMeet (Anti-Inter-Sound)
 ! Author: papypoutine | {@R!s TechCor}
-! Version: 1.2
+! Version: 1.3
 ! Expires: 1 hour
 ! License: {@R!s TechCor}
-! Homepage: N/A
-! Contact: N/A
+! Homepage: smeet.com
+! Contact: X47CH3R#0173 {discord}
 ! Support: N/A
 ! Contribution: N/A
 
@@ -23,8 +23,7 @@
 ! appearance.xx = bloque les animations d'entrée
 ! disappearance.xx = bloque les animations de sortie
 
-||c00s.com*/appearance.xx*$object,domain=smeet.com,important
-!||c00s.com*disappearance.xx.*$object,redirect-rule=noop.js
+||c00s.com*appearance.xx*$object,domain=smeet.com,important
 
 ! >>>> (sons divers) <<<< !
 
@@ -39,25 +38,12 @@
 ||c00s.com*effectImage*$domain=smeet.com,important
 ||c00s.com*actionImage*$domain=smeet.com,important
 
-! >>>> (iFrameHide to Smeet) <<<< !
-
-fr.smeet.com##iframe#fb_xdm_frame_https[src^="https://staticxx.facebook.com/connect/xd_arbiter.php"]
-fr.smeet.com##iframe#flashHelpIframe
-fr.smeet.com##div#sponsorpay
-fr.smeet.com##iframe#iFrameVideoOffers
-fr.smeet.com##div#sponsorPayVideoHolder
-fr.smeet.com##iframe#roomServiceNotifier
-fr.smeet.com##iframe#userMessagingNotifier
-fr.smeet.com##body#body > noscript
-
 ! >>>> (Fix Payement online) <<<< !
 
 @@||*paymentwall.com*$domain=smeet.com
 @@||*terminal3.com*$domain=smeet.com
 
 ! >>>> (Fix Room Public Help) <<<< !
-
-@@||c00s.com*GLOBUS*$domain=smeet.com
 @@||*c00s.com*animiert*GLOBUS*$object,domain=smeet.com
 
 ! ----------------------------------- SMEET FILTRAGE FIN ----------------------------------- !
