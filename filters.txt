@@ -23,7 +23,7 @@
 ! appearance.xx = bloque les animations d'entrée
 ! disappearance.xx = bloque les animations de sortie
 
-||c00s.com*appearance.xx*$object,domain=smeet.com,important
+!||c00s.com*appearance.xx*$object,domain=smeet.com,important
 
 ! >>>> (sons divers) <<<< !
 
