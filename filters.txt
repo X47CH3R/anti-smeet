@@ -24,6 +24,7 @@
 ! disappearance.xx = bloque les animations de sortie
 
 !||c00s.com*appearance.xx*$object,domain=smeet.com,important
+!||c00s.com*disappearance.xx*$object,domain=smeet.com,important
 
 ! >>>> (sons divers) <<<< !
 
@@ -50,5 +51,15 @@
 ! >>>> smeet.com (fix some bugs)<<<< !
 
 @@||c00s.com*Trigger*$domain=smeet.com
+
+! >>>> (Block Third party) <<<< !
+
+smeet.com###roomServiceNotifier
+smeet.com###userMessagingNotifier
+smeet.com###popupHint
+smeet.com###fb-root
+smeet.com###sponsorPayVideoHolder
+smeet.com###iFrameVideoOffers
+smeet.com###iFrameGallery
 
 ! ----------------------------------- SMEET FILTRAGE FIN ----------------------------------- !
