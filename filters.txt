@@ -17,8 +17,9 @@
 ! * = bloque tout caractère aléatoire avant ou après
 ! $ = séparateur entre chaque filtre de bloquage/autorisation
 ! @@ = autorise tout
+! ##/### blocage d’éléments visible/invisible en arrière-plan
 
-! >>>> smeet.com (animations d'entrée/sortie des pixels) <<<< !
+! >>>> smeet.com (animations d'entrée/sortie des pixels, filtres désactivé pour cause de bug général des pixels) <<<< !
 
 ! appearance.xx = bloque les animations d'entrée
 ! disappearance.xx = bloque les animations de sortie
