@@ -1,6 +1,6 @@
-! Title: filters sMeet (Anti-Inter-Sound)
+! Title: Anti - sMeet (Inter/Sound/More)
 ! Author: papypoutine | {@R!s TechCor}
-! Version: 1.3
+! Version: 1.4b
 ! Expires: 1 hour
 ! License: {@R!s TechCor}
 ! Homepage: smeet.com
@@ -19,12 +19,12 @@
 ! @@ = autorise tout
 ! ##/### blocage d’éléments visible/invisible en arrière-plan
 
-! >>>> smeet.com (animations d'entrée/sortie des pixels, filtres désactivé pour cause de bug général des pixels) <<<< !
+! >>>> smeet.com (animations d'entrée/sortie des pixels, filtre de sortie désactivé pour cause de bug général des pixels) <<<< !
 
 ! appearance.xx = bloque les animations d'entrée
 ! disappearance.xx = bloque les animations de sortie
 
-!||c00s.com*appearance.xx*$object,domain=smeet.com,important
+||c00s.com*appearance.xx*$object,domain=smeet.com,important
 !||c00s.com*disappearance.xx*$object,domain=smeet.com,important
 
 ! >>>> (sons divers) <<<< !
@@ -62,5 +62,23 @@ smeet.com###fb-root
 smeet.com###sponsorPayVideoHolder
 smeet.com###iFrameVideoOffers
 smeet.com###iFrameGallery
+
+! >>>> ( Fix Notif Enable FlashPlayer ) <<<< !
+
+||www.smeet.com/flashdisabled$subdocument
+
+! >>>> ( Fix bug for Garden in Flowers (Calendar) ) <<<< !
+
+@@||c00s.com/orep/object/Properties/minigames/4.1572273434081$domain=smeet.com
+
+! >>>> ( Fix bug for buy/chooser object room privated and shop ) <<<< !
+
+@@||c00s.com/orep/object/Properties/ads/4.*$domain=smeet.com
+@@||cloudfront.net/In-World-Banner/All/*/*/*.swf?clickTag=action://openShop/FURNITURE/theme:farm:/theme:*$object,domain=smeet.com
+@@||amazonaws.com/In-World-Banner/All/Shop_Verlinkungen/*/*.swf?clickTag=action://openShop/FURNITURE/theme:farm:/theme:*$object,domain=smeet.com
+@@||cloudfront.net/In-World-Banner/All/Shop_Verlinkungen/*/*.swf?clickTag=action://openShop/FURNITURE/theme:*$object,domain=smeet.com
+@@||cloudfront.net/In-World-Banner/All/Shop_Verlinkungen/*.swf?clickTag=action://openShop/FURNITURE/theme:farm:/theme:*$object,domain=smeet.com
+@@||c00s.com*roomchooser*$domain=smeet.com
+@@||amazonaws.com/files.smeet.com/In-World-Banner/All/Shop_Verlinkungen/*/*.swf?clickTag=action://openShop/FURNITURE/theme:farm:/theme:*$object,domain=smeet.com
 
 ! ----------------------------------- SMEET FILTRAGE FIN ----------------------------------- !
