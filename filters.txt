@@ -19,12 +19,12 @@
 ! @@ = autorise tout
 ! ##/### blocage d’éléments visible/invisible en arrière-plan
 
-! >>>> smeet.com (animations d'entrée/sortie des pixels, filtre de sortie désactivé pour cause de bug général des pixels) <<<< !
+! >>>> smeet.com (animations d'entrée/sortie des pixels, filtres désactivé pour cause de bug général des pixels) <<<< !
 
 ! appearance.xx = bloque les animations d'entrée
 ! disappearance.xx = bloque les animations de sortie
 
-||c00s.com*appearance.xx*$object,domain=smeet.com,important
+!||c00s.com*appearance.xx*$object,domain=smeet.com,important
 !||c00s.com*disappearance.xx*$object,domain=smeet.com,important
 
 ! >>>> (sons divers) <<<< !
