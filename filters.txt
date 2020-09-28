@@ -53,19 +53,9 @@
 
 @@||c00s.com*Trigger*$domain=smeet.com
 
-! >>>> (Block Third party) <<<< !
+! >>>> ( Fix Notif Enable FlashPlayer ) <<<< !
 
-smeet.com###roomServiceNotifier
-smeet.com###userMessagingNotifier
-smeet.com###popupHint
-smeet.com###fb-root
-smeet.com###sponsorPayVideoHolder
-smeet.com###iFrameVideoOffers
-smeet.com###iFrameGallery
-
-! >>>> ( Fix Notif Enable FlashPlayer - Disabled because blocking flash enter Smeet ) <<<< !
-
-@@||www.smeet.com/flashdisabled$subdocument
+||www.smeet.com/flashdisabled$subdocument
 
 ! >>>> ( Fix bug for Garden in Flowers (Calendar) ) <<<< !
 
