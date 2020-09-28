@@ -63,9 +63,9 @@ smeet.com###sponsorPayVideoHolder
 smeet.com###iFrameVideoOffers
 smeet.com###iFrameGallery
 
-! >>>> ( Fix Notif Enable FlashPlayer ) <<<< !
+! >>>> ( Fix Notif Enable FlashPlayer - Disabled because blocking flash enter Smeet ) <<<< !
 
-||www.smeet.com/flashdisabled$subdocument
+@@||www.smeet.com/flashdisabled$subdocument
 
 ! >>>> ( Fix bug for Garden in Flowers (Calendar) ) <<<< !
 
