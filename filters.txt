@@ -57,6 +57,11 @@
 
 ||www.smeet.com/flashdisabled$subdocument
 
+! >>>> ( Fix Enable/Enter FlashPlayer on Smeet ) <<<< !
+
+@@||www.gstatic.com*$domain=smeet.com
+@@||google-analytics.com*$domain=smeet.com
+
 ! >>>> ( Fix bug for Garden in Flowers (Calendar) ) <<<< !
 
 @@||c00s.com/orep/object/Properties/minigames/4.1572273434081$domain=smeet.com
