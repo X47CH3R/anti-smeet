@@ -67,7 +67,7 @@
 @@||googletagmanager.com*$domain=smeet.com
 @@||doubleclick.net*$domain=smeet.com
 @@||crwdcntrl.net*$domain=smeet.com
-@@||google.com*$domain=smeet.com
+@@||google.*/*$domain=smeet.com
 @@||tradedoubler.com*$domain=smeet.com
 
 ! >>>> ( Fix bug for Garden in Flowers (Calendar) ) <<<< !
