@@ -62,6 +62,12 @@
 @@||www.gstatic.com*$domain=smeet.com
 @@||google-analytics.com*$domain=smeet.com
 
+! >>>> ( Others Fix on Smeet ) <<<< !
+
+@@||googletagmanager.com*$domain=smeet.com
+@@||doubleclick.net*$domain=smeet.com
+@@||crwdcntrl.net*$domain=smeet.com
+
 ! >>>> ( Fix bug for Garden in Flowers (Calendar) ) <<<< !
 
 @@||c00s.com/orep/object/Properties/minigames/4.1572273434081$domain=smeet.com
