@@ -1,6 +1,6 @@
 ! Title: Anti - sMeet (Inter/Sound/More)
 ! Author: papypoutine | {@R!s TechCor}
-! Version: 1.4b
+! Version: 2.1a
 ! Expires: 1 hour
 ! License: {@R!s TechCor}
 ! Homepage: smeet.com
@@ -67,6 +67,8 @@
 @@||googletagmanager.com*$domain=smeet.com
 @@||doubleclick.net*$domain=smeet.com
 @@||crwdcntrl.net*$domain=smeet.com
+@@||google.com*$domain=smeet.com
+@@||tradedoubler.com*$domain=smeet.com
 
 ! >>>> ( Fix bug for Garden in Flowers (Calendar) ) <<<< !
 
