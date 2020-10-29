@@ -1,6 +1,6 @@
 ! Title: Anti - sMeet (Inter/Sound/More)
 ! Author: papypoutine | {@R!s TechCor}
-! Version: 2.1a
+! Version: 2.2
 ! Expires: 1 hour
 ! License: {@R!s TechCor}
 ! Homepage: smeet.com
@@ -88,4 +88,8 @@
 @@||c00s.com/*/COUNTER/HLO/*$domain=smeet.com
 @@||cloudfront.net/*.swf?clickTag=action://openShop/*$domain=smeet.com
 @@||c00s.com/*/FINDABLE_OBJECTS/*$domain=smeet.com
+@@||c00s.com/*/SmeetAdTabelle/*$domain=smeet.com
+@@||c00s.com/*/Pfeile/*$domain=smeet.com
+@@||cloudfront.net/appBase/*/defaultBackground.jpg$domain=smeet.com
+@@||smeet.com/smeet-web/partner/soiTrackingPixel.do?step=soi_retarget$1p
 ! ----------------------------------- SMEET FILTRAGE FIN ----------------------------------- !
