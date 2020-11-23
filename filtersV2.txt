@@ -1,0 +1,95 @@
+! Title: Anti - sMeet (Inter/Sound/More)
+! Author: papypoutine | {@R!s TechCor}
+! Version: 2.2
+! Expires: 1 hour
+! License: {@R!s TechCor}
+! Homepage: smeet.com
+! Contact: X47CH3R#0173 {discord}
+! Support: N/A
+! Contribution: N/A
+
+! ---------------------------------- SMEET FILTRAGE DEBUT ---------------------------------- !
+
+! Les lignes débutant par ‘!’ seront ignorées
+! type = objet (exemple swf, mp3)
+! domain = yoursite.com (domaine site web)
+! important = bloque même s'il existe une exception
+! * = bloque tout caractère aléatoire avant ou après
+! $ = séparateur entre chaque filtre de bloquage/autorisation
+! @@ = autorise tout
+! ##/### blocage d’éléments visible/invisible en arrière-plan
+
+! >>>> smeet.com (animations d'entrée/sortie des pixels, filtres désactivé pour cause de bug général des pixels) <<<< !
+
+! appearance.xx = bloque les animations d'entrée
+! disappearance.xx = bloque les animations de sortie
+
+!||c00s.com*appearance.xx*$object,third-party,important
+!||c00s.com*disappearance.xx*$object,third-party,important
+
+! >>>> (sons divers) <<<< !
+
+||*mp3$third-party,important
+||*emotigrams*$third-party,important
+
+! >>>> (interactions) <<<< !
+
+! effectImage = sur/et vous uniquement
+! actionImage = tout animation visible dans la room exception sur vous
+
+||c00s.com*effectImage*$third-party,important
+||c00s.com*actionImage*$third-party,important
+
+! >>>> (Fix Payement online) <<<< !
+
+@@||*paymentwall.com*$third-party
+@@||*terminal3.com*$third-party
+
+! >>>> (Fix Room Public Help) <<<< !
+
+@@||*c00s.com*animiert*GLOBUS*$object,third-party
+
+! >>>> smeet.com (fix some bugs)<<<< !
+
+@@||c00s.com*Trigger*$third-party
+
+! >>>> ( Fix Notif Enable FlashPlayer ) <<<< !
+
+||www.smeet.com/flashdisabled$subdocument
+
+! >>>> ( Fix Enable/Enter FlashPlayer on Smeet ) <<<< !
+
+@@||www.gstatic.com*$third-party
+@@||google-analytics.com*$third-party
+
+! >>>> ( Others Fix on Smeet ) <<<< !
+
+@@||googletagmanager.com*$third-party
+@@||doubleclick.net*$third-party
+@@||crwdcntrl.net*$third-party
+@@||google.*/*$third-party
+@@||tradedoubler.com*$third-party
+
+! >>>> ( Fix bug for Garden in Flowers (Calendar) ) <<<< !
+
+@@||c00s.com/orep/object/Properties/minigames/4.1572273434081$third-party
+
+! >>>> ( Fix bug for buy/chooser object room privated and shop ) <<<< !
+
+@@||c00s.com/orep/object/Properties/ads/4.*$third-party
+@@||c00s.com*roomchooser*$third-party
+@@||c00s.com*DailyReward2020*$third-party
+@@||cloudfront.net/InGamePromotion/2020/*$third-party
+@@||c00s.com*Terminals/DimeExchange*$third-party
+@@||amazonaws.com/*.swf?clickTag=action://openShop/*$object,third-party
+
+! >>>> ( Fix bug for help/counter object public room ) <<<< !
+
+@@||c00s.com/*/COUNTER/HLO/*$third-party
+@@||cloudfront.net/*.swf?clickTag=action://openShop/*$third-party
+@@||c00s.com/*/FINDABLE_OBJECTS/*$third-party
+@@||c00s.com/*/SmeetAdTabelle/*$third-party
+@@||c00s.com/*/Pfeile/*$third-party
+@@||cloudfront.net/appBase/*/defaultBackground.jpg$third-party
+@@||smeet.com/smeet-web/partner/soiTrackingPixel.do?step=soi_retarget$1p
+! ----------------------------------- SMEET FILTRAGE FIN ----------------------------------- !
